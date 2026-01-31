@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-retail: 'Inter', sans-serif;
+
+  --color-retail-50: #f9fafb;
+  --color-retail-100: #f3f4f6;
+  --color-retail-200: #e5e7eb;
+  --color-retail-300: #d1d5db;
+  --color-retail-400: #9ca3af;
+  --color-retail-500: #6b7280;
+  --color-retail-600: #4b5563;
+  --color-retail-700: #374151;
+  --color-retail-800: #1f2937;
+  --color-retail-900: #111827;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 font-sans antialiased;
+  }
+}
