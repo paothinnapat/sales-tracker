@@ -96,7 +96,7 @@ export default function SalesForm() {
 
         setIsSubmitting(true);
         try {
-            const response = await fetch('http://localhost:3000/api/submit-sale', {
+            const response = await fetch('/api/submit-sale', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
